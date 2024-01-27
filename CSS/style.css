@@ -17,3 +17,29 @@
     background-color: skyblue;
     border: 5px solid #000;
 }
+
+.food-item-container{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food-item{
+    height: 200px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.food-item img{
+    height: 150px;
+    width: 180px;
+}
+
+.food-item img:hover{
+    transform: scale(2);
+    transition: 2s;
+}
+
+.food-item h4{}
+.food-item h6{}
